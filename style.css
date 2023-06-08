@@ -1,14 +1,46 @@
-#grad {
-    background-image: linear-gradient(blue, indigo);
-  }
+@font-face {
+  font-family: "Fena";
+  src: url(font/FENA.ttf);
+}
 
-/* body {
-} */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/* #grad {
+    background-image: linear-gradient(blue, indigo);
+  } */
+
+html {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+    to bottom,
+    #2307f9,
+    #3d0367
+  )
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:rgb(187, 235, 236);
+}
+
+a:visited {
+  color:rgb(187, 235, 236);
+}
 
 footer {
   text-align: center;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .centerImg {
@@ -22,33 +54,89 @@ footer {
   text-align: center;
 }
 
+.blue {
+  color:rgb(187, 235, 236);
+}
+
+.big {
+  font-size: 150%;
+}
+
+.coverButton {
+  border: 1px solid rgb(243, 119, 4);;
+  background-color: rgba(243, 178, 132, 0.4);
+}
+
+.content {
+  padding: 10px;
+  display: none;
+  overflow: hidden;
+
+}
+
+#MC {
+  color:rgb(215, 242, 240);
+}
+
 p {
   margin: auto;
-  width: 70%;
+  width: 80%;
   padding: 10px;
+  font-family: serif;
+  color: rgb(215, 242, 240);
+}
+
+ul {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  list-style-type: "";
+  color: cornsilk;
+}
+
+.title {
+  font-size: 500%;
 }
 
 h1 {
+  font-family: 'Yellowtail', cursive;
+  font-weight: normal;
   margin: auto;
-  width: 70%;
+  align-self: center;
+  width: 80%;
   padding: 10px;
+  color: rgb(243, 119, 4);
+  /* display: inline-block; */
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 h2 {
   margin: auto;
-  width: 70%;
+  width: 80%;
   padding: 10px;
 }
 
 h3 {
   margin: auto;
-  width: 70%;
+  width: 80%;
   padding: 10px;
+  color:rgb(205, 191, 173);
+}
+
+.clear {
+  color:cornsilk;
 }
 
 h4 {
   margin: auto;
-  width: 70%;
+  width: 80%;
   padding: 10px;
 }
 
+h6 {
+  margin: auto;
+  /* width: 80%; */
+  padding: 10px;
+  color:rgb(205, 191, 173);
+}
