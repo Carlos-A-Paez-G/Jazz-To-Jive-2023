@@ -16,12 +16,10 @@ html {
   background-attachment: fixed;
   background-image: linear-gradient(
     to bottom,
-    #2307f9,
+    #634fff,
     #3d0367
   )
 }
-
-
 
 a {
   text-decoration: none;
@@ -54,6 +52,13 @@ footer {
   text-align: center;
 }
 
+.social {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding: 2px;
+}
+
 .blue {
   color:rgb(187, 235, 236);
 }
@@ -63,8 +68,10 @@ footer {
 }
 
 .coverButton {
-  border: 1px solid rgb(243, 119, 4);;
-  background-color: rgba(243, 178, 132, 0.4);
+  /* border: 1px solid rgb(4, 100, 243); */
+  background-color: rgba(132, 176, 243, 0.4);
+  border-radius: 15px;
+  /* padding: 5px; */
 }
 
 .content {
@@ -82,11 +89,12 @@ p {
   margin: auto;
   width: 80%;
   padding: 10px;
-  font-family: serif;
+  font-family: sans-serif;
   color: rgb(215, 242, 240);
 }
 
 ul {
+  font-family: sans-serif;
   margin: auto;
   width: 80%;
   padding: 10px;
@@ -118,6 +126,7 @@ h2 {
 }
 
 h3 {
+  font-family: sans-serif;
   margin: auto;
   width: 80%;
   padding: 10px;
@@ -135,6 +144,7 @@ h4 {
 }
 
 h6 {
+  font-family: sans-serif;
   margin: auto;
   /* width: 80%; */
   padding: 10px;
